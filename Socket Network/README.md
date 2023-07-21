@@ -1,9 +1,9 @@
-# Computer Networking Using Sockets
-This is a project to simulate a communication between client and server using the client.py and server.py files. It applies knowledge from general network computing with sockets, and uses some other concepts such as data structures and exception handling.
+# Socket Network
+Este é um projeto para simular uma comunicação entre cliente e servidor usando os arquivos client.py e server.py. Ele aplica o conhecimento de computação de rede geral com soquetes e usa alguns outros conceitos, como estruturas de dados e tratamento de exceções.
 
-## How to Run and Use the Project
-First, you need to run the ***server.py*** and then, the ***client.py*** file. When you start a client, you'll be asked an username, and after you input this, the client will then be connected to the server. You can send messages just by typing anything, and your message will be shown to other clients that are connected since the server can be connected to multiple clients at the same time as the code supports threading. Also, there are several commands that can be used by the clients:
-- **/LIST:** Lists all clients that are currently connected to the server;
-- **/FILE:** Sends a file on the ***client_files*** folder to the ***server_files*** folder which stores all the files sent by clients. This folder is not among the files of this project by default, but when you send a file for the first time (or whenever the folder does not exists inside the main project folder) one will be created;
-- **/GET:** Used to retrieve an image that is on the ***server_files*** folder;
-- **/BYE:** Ends the connection to the server.
+## Como executar e usar o projeto
+Primeiro, você precisa executar o arquivo ***server.py*** e depois o arquivo ***client.py***. Quando você iniciar um cliente, será solicitado um nome de usuário e, após inseri-lo, o cliente será conectado ao servidor. Você pode enviar mensagens apenas digitando qualquer coisa, e sua mensagem será mostrada para outros clientes conectados, pois o servidor pode ser conectado a vários clientes ao mesmo tempo, pois o código suporta threading. Além disso, existem vários comandos que podem ser usados ​​pelos clientes:
+- **/LIST:** Lista todos os clientes que estão atualmente conectados ao servidor;
+- **/FILE:** Envia um arquivo da pasta ***client_files*** para a pasta ***server_files*** que armazena todos os arquivos enviados pelos clientes. Esta pasta não está entre os arquivos deste projeto por padrão, mas quando você enviar um arquivo pela primeira vez (ou sempre que a pasta não existir dentro da pasta principal do projeto) será criado um;
+- **/GET:** Usado para recuperar uma imagem que está na pasta ***server_files***;
+- **/BYE:** Termina a conexão com o servidor.
